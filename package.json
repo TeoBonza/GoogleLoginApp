@@ -1,0 +1,38 @@
+{
+  "name": "googleauthapp",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.1",
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-navigation/native": "^7.0.8",
+    "@react-navigation/stack": "^7.0.13",
+    "expo": "~52.0.11",
+    "expo-auth-session": "^6.0.0",
+    "expo-secure-store": "^14.0.0",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-hook-form": "^7.53.2",
+    "react-native": "0.76.3",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-reanimated": "^3.16.3",
+    "react-native-safe-area-context": "^4.14.0",
+    "react-native-screens": "^4.3.0",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
